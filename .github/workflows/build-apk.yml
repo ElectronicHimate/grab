@@ -3,9 +3,8 @@ name: build apk
 on:
   workflow_dispatch:
     inputs:
-      repo-url: 'https://github.com/XJustForYouX/sudachi'
-        description: 'git clone url'
-        required: true
+      repo-url: https://github.com/XJustForYouX/sudachi
+        
       repo-commit:
         description: 'commit'
       repo-dir:
